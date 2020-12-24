@@ -19,12 +19,24 @@ Use `pip install pipwin` and then use `pipwin install pyaudio` ([Ref](https://ro
 - playsound
   - `playsound()` function plays the sound in the audio file and blocks until the file reading is completed, you can pass block=False to make the function run asynchronously.
 - pydub (alternative to playsound - but has much more features, [pydub](https://github.com/jiaaro/pydub))
+  - **`pydub`** requires **`pyaudio`** for audio playback, but with `ffmpeg` installed, it lets you play a large range of audio formats with only a few lines of code.
 
+* **`simpleaudio`** lets you play WAV files and NumPy arrays, and gives you options to check whether a file is still playing.
+* **`winsound`** allows you to play WAV files or beep your speakers, but it works only on Windows.
+* **`python-sounddevice`** and **`pyaudio`** provide bindings for the PortAudio library for cross-platform playback of WAV files.
+*
+
+
+##### xprillion mentioned `fire`
 
 
 ### *References/Bibliography*
 
 [Virtual Audio Pipeline / Blog: An overview to Virtual Audio Pipeline (sourceforge.net)](https://sourceforge.net/p/virtualaudiopip/blog/2013/06/an-overview-to-virtual-audio-pipeline/)
+
+[How to create fake speakers and microphone in Windows 10 (technospot.net)](https://www.technospot.net/blogs/create-fake-speakers-and-mic-using-virtual-audio-cable/)
+
+[How to enable and use virtual input devices in Windows 10 - TechRepublic](https://www.techrepublic.com/article/how-to-enable-and-use-virtual-input-devices-in-windows-10/)
 
 [denizariyan/Real-Time-Auto-Transcriber](https://github.com/denizariyan/Real-Time-Auto-Transcriber)
 
