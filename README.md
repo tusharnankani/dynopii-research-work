@@ -1,5 +1,26 @@
 # dynopii-research-work
 
+## *PyVirtualAudioCable*
+
+My understanding of a virtual audio cable: Just as there are printer drivers that do not connect to a printer at all but rather write to a PDF file.
+
+Analogously there are virtual audio drivers available that do not connect to a physical microphone at all but can pipe input from other sources such as files or other programs.
+
+### *Modules*
+
+Python packages that could be used:
+
+- PyAudio
+
+**NOTE**: facing error while installing (*windows installation*) `pyaudio`, similar to what I faced while installing the `face_recognition` module. ([FIX](https://github.com/ageitgey/face_recognition/issues/175))
+
+Use `pip install pipwin` and then use `pipwin install pyaudio` ([Ref](https://roytuts.com/python-voice-recording-through-microphone-for-arbitrary-time-using-pyaudio/))
+
+- playsound
+  - `playsound()` function plays the sound in the audio file and blocks until the file reading is completed, you can pass block=False to make the function run asynchronously.
+- pydub (alternative to playsound - but has much more features, [pydub](https://github.com/jiaaro/pydub))
+
+
 
 ### *References/Bibliography*
 
@@ -16,3 +37,5 @@
 [Playing and Recording Sound in Python – Real Python](https://realpython.com/playing-and-recording-sound-python/)
 
 [Python Voice Recording through Microphone for Arbitrary Time using PyAudio](https://roytuts.com/python-voice-recording-through-microphone-for-arbitrary-time-using-pyaudio/#:~:text=%20Python%20Voice%20Recording%20through%20Microphone%20for%20Arbitrary,will%20create%20a%20Python%20script%20called...%20More%20)
+
+[Play audio as microphone input - Stack Overflow](https://stackoverflow.com/questions/20569076/play-audio-as-microphone-input)
