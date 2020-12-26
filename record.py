@@ -16,7 +16,7 @@ def record():
 					input=True,
 					frames_per_buffer=CHUNK)
 
-	print("Start recording")
+	print("**start recording")
 
 	frames = []
 
@@ -47,11 +47,9 @@ def record_to_file(file_path):
 	wf.close()
 
 if __name__ == '__main__':
-	print('#' * 80)
 	print("Please speak word(s) into the microphone")
 	print('Press Ctrl+C to stop the recording')
 	
-	record_to_file('output.wav')
-	
-	print("Result written to output.wav")
-	print('#' * 80)
+	file_name = input(("Enter the File Name to be saved as:"))
+	record_to_file(file_name)
+	print(f"Result written to {file_name}")
