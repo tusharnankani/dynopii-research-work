@@ -51,5 +51,6 @@ if __name__ == '__main__':
 	print('Press Ctrl+C to stop the recording')
 	
 	file_name = input(("Enter the File Name to be saved as:"))
+	file_name += ".wav"
 	record_to_file(file_name)
-	print(f"Result written to {file_name}")
+	print(f"Result written to {file_name}.wav")
