@@ -10,7 +10,7 @@ Analogously there are virtual audio drivers available that do not connect to a p
 
 Python packages that could be used:
 
-- `PyAudio`
+- **`PyAudio`**
 
 **NOTE**: facing error while installing (*windows installation*) `pyaudio`, similar to what I faced while installing the `face_recognition` module. ([FIX](https://github.com/ageitgey/face_recognition/issues/175))
 
@@ -27,7 +27,6 @@ Use `pip install pipwin` and then use `pipwin install pyaudio` ([Ref](https://ro
   * [python-sounddevice: device selection](https://python-sounddevice.readthedocs.io/en/0.3.7/#device-selection)
   * [python-sounddevice: Input to Output passthrough](https://python-sounddevice.readthedocs.io/en/0.4.1/examples.html#input-to-output-pass-through)
 * **`winsound`** allows you to play WAV files or beep your speakers, but it works only on Windows.
-
 ---
 
 ##### xprillion mentioned `fire`
