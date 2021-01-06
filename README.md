@@ -1,4 +1,4 @@
-# dynopii-research-work
+# dynopii-research-work (*Winter of Code 2020*)
 
 ## *PyVirtualAudioCable*
 
@@ -14,7 +14,7 @@ Python packages that could be used:
 
 **NOTE**: facing error while installing (*windows installation*) `pyaudio`, similar to what I faced while installing the `face_recognition` module. ([FIX](https://github.com/ageitgey/face_recognition/issues/175))
 
-Use `pip install pipwin` and then use `pipwin install pyaudio` ([Ref](https://roytuts.com/python-voice-recording-through-microphone-for-arbitrary-time-using-pyaudio/))
+Instead: Use `pip install pipwin` and then use `pipwin install pyaudio` ([Ref](https://roytuts.com/python-voice-recording-through-microphone-for-arbitrary-time-using-pyaudio/))
 
 - `playsound`
   - `playsound()` function plays the sound in the audio file and blocks until the file reading is completed, you can pass block=False to make the function run asynchronously.
@@ -27,12 +27,12 @@ Use `pip install pipwin` and then use `pipwin install pyaudio` ([Ref](https://ro
   * [python-sounddevice: device selection](https://python-sounddevice.readthedocs.io/en/0.3.7/#device-selection)
   * [python-sounddevice: Input to Output passthrough](https://python-sounddevice.readthedocs.io/en/0.4.1/examples.html#input-to-output-pass-through)
 * **`winsound`** allows you to play WAV files or beep your speakers, but it works only on Windows.
+
 ---
 
 ##### xprillion mentioned `fire`
 
 https://github.com/google/python-fire
-
 
 ## *References/Bibliography*
 
